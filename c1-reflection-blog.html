@@ -3,24 +3,162 @@
   <head>
     <title>Leo McLay </title>
     <meta charset="UTF-8">
-    <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.green-light_blue.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   </head>
 
+  <style>
+
+  body {
+    background: url('images/pohutakawa.jpg') fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-right: 1px solid rgb(250, 250, 250);
+  }
+
+  .main {
+    position: scroll;
+    padding-top: 40px;
+  }
+
+  #name {
+    background-color: white;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 20px;
+    text-align: right;
+    color: black;
+  }
+
+  #description {
+    padding: 30px 0 30px 10px;
+}
+
+  #contact {
+    padding: 10px 10px 20px 10px;
+  }
+
+  #details {
+    text-align: center;
+  }
+
+  .fa {
+    vertical-align: middle;
+  }
+
+  .mdl-card {
+  width: 100%;
+
+}
+  .mdl-card__title {
+  color: #fff;
+  height: 176px;
+
+}
+  .mdl-card__menu {
+      color: #fff;
+}
+  .mdl-card__media {
+      box-sizing: border-box;
+      background-size: cover;
+      height: 200px;
+      background-image: url("images/code.jpg");
+      padding-top: 160px;
+      padding-left: 10px;
+  }
+
+  .mdl-card__supporting-text {
+      width: 85%;
+      min-height: 64px;
+      padding-left: 100px;
+  }
+
+  </style>
+
   <body>
-    <h1>Blog</h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-    <h3>10 November 2010</h3>
 
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 sidebar" id="sidebar">
+            <div id="name">
+              <h1>Leo Mclay</h1>
+              <h2>Aspiring Web Developer</h2>
+            </div>
+            <p id="description">I'm currently at Enspiral's <a href="http://www.devacademy.co.nz/">Dev Academy</a> in Auckland, New Zealand. I'm working towards becoming a fullstack web developer.</p>
+            <div id="contact">
+              <div class="row">
+                <div class="col-md-5">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="col-md-7" id="details">
+                  <p>+642102706534</p>
+                </div>
+                <div class="col-md-5">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="col-md-7" id="details">
+                  <p>leo.mclay@gmail.com</p>
+                </div>
+                <div class="col-md-5">
+                  <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="col-md-7" id="details">
+                  <p><a href="https://nz.linkedin.com/in/leomclay">www.linkedin.com/in/leomclay</a></p>
+                </div>
+                <div class="col-md-5">
+                  <i class="fa fa-file-pdf-o"></i>
+                </div>
+                <div class="col-md-7" id="details">
+                  <p>resume.pdf</p>
+                </div>
+              </div>
+            </div>
+        </div>
 
 
+        <div class="col-md-9 offset-md-2 main" id="blog">
+
+          <div class="mdl-layout_content">
+            <div class="mdl-grid">
+              <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+                <div class="mdl-card__media mdl-color-text--grey-50">
+                  <h2>Reflections: Dev Academy</h2>
+                </div>
+                <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+                  <p>
+                      As I write this, I’m at the end of the first week of Enspiral’s Dev Academy. For the first half of this course, we are learning from home. This confirms to me that Dev Academy is technologically up to date, and progressive in nature. I feel at home in this kind of environment - I can see my self working easily here either in teams or solo.                   </p>
+                  <p>
+                      So far, the working environment of EDA is as expected. The curriculum is what I’ve already learnt previously (I expect this to change soon). Still, I am learning heaps just through practise - one of the benefits I see in EDA. It takes learning a step further from using online resources by creating an environment where you are able to put them into practise with other students.                   </p>
+                  <p>
+                      I’m certainly excited and nervous about the next few weeks. Excited, because I know I already love programming and can’t wait to see what I can create! Nervous because, as with my fellow students, I’ve invested a lot into this course ie. time and money. It’s scary!                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
