@@ -41,7 +41,7 @@
   }
 
   #details {
-    text-align: center;
+    text-align: left;
   }
 
   .fa {
@@ -90,4 +90,11 @@
       min-height: 64px;
       padding-left: 20px;
       padding-top: 30px;
+  }
+
+  #icon {
+
+      text-align: center;
+      font-size: 20px;
+
   }
