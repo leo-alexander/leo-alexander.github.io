@@ -4,17 +4,13 @@
 }
 
 #header {
-
-  background: deepskyblue;
+  text-align: center;
+  padding: 5%;
 }
 
-#details {
-  background: yellow;
-}
-
-#icon {
-  background: green;
-  padding: 0% 5% 0% 5%;
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
 }
 
 #detail {
@@ -23,5 +19,18 @@
 }
 
 #link {
-  background: grey;
+}
+
+#blog-link {
+  background: orange;
+}
+
+#links {
+  background-color: yellow;
+  width: 100%;
+  color: red;
+}
+
+#link {
+  text-transform: uppercase;
 }
