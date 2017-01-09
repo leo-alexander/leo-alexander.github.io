@@ -1,0 +1,27 @@
+#body {
+  background: grey;
+
+}
+
+#header {
+
+  background: deepskyblue;
+}
+
+#details {
+  background: yellow;
+}
+
+#icon {
+  background: green;
+  padding: 0% 5% 0% 5%;
+}
+
+#detail {
+  background: pink;
+  padding: 0% 5% 0% 5%;
+}
+
+#link {
+  background: grey;
+}
