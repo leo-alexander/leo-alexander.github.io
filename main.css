@@ -89,3 +89,20 @@ button.button-primary:hover {
   font-size: 20px;
   font-weight: bolder;
 }
+
+#img-wireframe {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  #img-wireframe {
+    width: 100%;
+    padding: 0px;
+  }
+}
