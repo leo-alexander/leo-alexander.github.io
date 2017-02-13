@@ -74,12 +74,32 @@ button.button-primary:hover {
 }
 
 #blog-list {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .blog-list a:hover {
   font-weight: bold;
 }
+
+.project-list th:first-child {
+  text-align: left;
+  padding-left: 5%;
+  font-size: 17px;
+}
+
+.project-list td {
+  text-align: left;
+  padding-left: 5%;
+}
+
+#project-list {
+  padding-top: 20px;
+}
+
+.project-list a:hover {
+  font-weight: bold;
+}
+
 
 #post {
   padding-top: 20px;
